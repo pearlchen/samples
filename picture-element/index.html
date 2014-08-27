@@ -26,14 +26,15 @@
 
       <!-- // [START code-block-source-media] -->
       <style>
-        picture {display: block; width: 100%; text-align: center;}
+        img {display: block; margin: 0 auto;}
       </style>
 
       <picture>
-        <source media="(min-width: 650px)" srcset="images/kitten-large.png">
-        <source media="(min-width: 465px)" srcset="images/kitten-medium.png">
-        <!-- img tag for browsers that do not support picture element -->
-        <img src="images/kitten-small.png" alt="a cute kitten">
+        <source media="(min-width: 650px)" srcset="images/kitten-stretching.png">
+        <source media="(min-width: 465px)" srcset="images/kitten-sitting.png">
+        <!-- Default img tag to use when width is below 465px -->
+        <!-- and when browser does not support the picture element -->
+        <img src="images/kitten-curled.png" alt="a cute kitten">
       </picture>
       <!-- // [END code-block] -->
 
